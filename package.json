@@ -1,0 +1,17 @@
+{
+	"name": "websockets-chat",
+	"version": "1.0.0",
+	"main": "server.js",
+	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"format": "prettier --write .",
+		"start": "node server.js"
+	},
+	"devDependencies": {
+		"prettier": "^2.7.1"
+	},
+	"dependencies": {
+		"ws": "^8.8.1"
+	}
+}
